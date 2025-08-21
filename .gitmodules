@@ -1,0 +1,3 @@
+[submodule "external/watermarkanything"]
+	path = external/watermarkanything
+	url = git@github.com:facebookresearch/watermark-anything.git

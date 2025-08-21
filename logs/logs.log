@@ -1,0 +1,1177 @@
+#---------------------------------------------------------------------#
+Run : 2025-08-22 01:37:02
+#---------------------------------------------------------------------#
+INFO | EDA                | DatasetDict({                                                                                                       eda.py:13
+     |                    |     V1: Dataset({
+     |                    |         features: ['image', 'id', 'source_prompt', 'target_prompt', 'edit_action', 'aspect_mapping',
+     |                    | 'blended_words', 'mask'],
+     |                    |         num_rows: 140
+     |                    |     })
+     |                    | })
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:18:18
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=train) ...                                                                  dataset.py:24
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:18:55
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:24
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:20:49
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:24
+INFO | Dataset            | Dataset loaded with 105 total samples                                                                                       dataset.py:26
+INFO | Dataset            | Finished processing 2 samples                                                                                               dataset.py:53
+INFO | Dataset            | Sample ID: 000000000001                                                                                                     dataset.py:63
+INFO | Dataset            | Sample ID: 000000000003                                                                                                     dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:21:23
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:24
+INFO | Dataset            | Dataset loaded with 105 total samples                                                                                       dataset.py:26
+DEB  | Dataset            | Selecting first 2 samples for preview                                                                                       dataset.py:29
+DEB  | Dataset            | Processing sample 0 (id=000000000001)                                                                                       dataset.py:36
+DEB  | Dataset            | Processing sample 1 (id=000000000003)                                                                                       dataset.py:36
+INFO | Dataset            | Finished processing 2 samples                                                                                               dataset.py:53
+INFO | Dataset            | Sample ID: 000000000001                                                                                                     dataset.py:63
+DEB  | Dataset            | Source prompt: a round cake with orange frosting on a wooden plate                                                          dataset.py:64
+DEB  | Dataset            | Target prompt: a [square] cake with [strawberry frosting] on a [plastic] plate                                              dataset.py:65
+DEB  | Dataset            | Edit prompts: ['a square cake with orange frosting on a wooden plate', 'a square cake with strawberry frosting on a wooden  dataset.py:66
+     |                    | plate', 'a square cake with strawberry frosting on a plastic plate']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:67
+INFO | Dataset            | Sample ID: 000000000003                                                                                                     dataset.py:63
+DEB  | Dataset            | Source prompt: blue light, a black and white cat is playing with a flower                                                   dataset.py:64
+DEB  | Dataset            | Target prompt: blue light, a black and white [dog] is playing with a [yellow] [ball]                                        dataset.py:65
+DEB  | Dataset            | Edit prompts: ['blue light, a black and white dog is playing with a flower', 'blue light, a black and white dog is playing  dataset.py:66
+     |                    | with yellow a flower', 'blue light, a black and white dog is playing with yellow a ball']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:67
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:26:08
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:26:26
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:26:26
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                            dataset.py:36
+DEB  | Dataset            | Selecting first 105 samples for preview                                                                                     dataset.py:39
+DEB  | Dataset            | Processing sample 0 (id=000000000001)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 1 (id=000000000003)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 2 (id=000000000005)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 3 (id=000000000006)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 4 (id=000000000009)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 5 (id=000000000010)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 6 (id=000000000013)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 7 (id=000000000015)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 8 (id=000000000016)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 9 (id=000000000017)                                                                                       dataset.py:46
+DEB  | Dataset            | Processing sample 10 (id=000000000018)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 11 (id=000000000020)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 12 (id=000000000021)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 13 (id=000000000023)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 14 (id=000000000024)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 15 (id=000000000027)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 16 (id=000000000028)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 17 (id=000000000029)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 18 (id=000000000030)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 19 (id=000000000032)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 20 (id=000000000033)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 21 (id=000000000034)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 22 (id=000000000035)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 23 (id=000000000036)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 24 (id=000000000038)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 25 (id=000000000039)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 26 (id=000000000042)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 27 (id=000000000043)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 28 (id=000000000044)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 29 (id=000000000045)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 30 (id=000000000046)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 31 (id=000000000047)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 32 (id=000000000048)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 33 (id=000000000049)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 34 (id=000000000050)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 35 (id=000000000052)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 36 (id=000000000053)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 37 (id=000000000054)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 38 (id=000000000055)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 39 (id=000000000056)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 40 (id=000000000057)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 41 (id=000000000058)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 42 (id=000000000059)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 43 (id=000000000060)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 44 (id=000000000061)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 45 (id=000000000062)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 46 (id=000000000063)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 47 (id=000000000064)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 48 (id=000000000065)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 49 (id=000000000066)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 50 (id=000000000067)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 51 (id=000000000069)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 52 (id=000000000071)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 53 (id=000000000072)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 54 (id=000000000073)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 55 (id=000000000075)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 56 (id=000000000076)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 57 (id=000000000077)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 58 (id=000000000078)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 59 (id=000000000080)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 60 (id=000000000082)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 61 (id=000000000083)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 62 (id=000000000084)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 63 (id=000000000085)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 64 (id=000000000086)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 65 (id=000000000087)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 66 (id=000000000088)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 67 (id=000000000089)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 68 (id=000000000090)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 69 (id=000000000091)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 70 (id=000000000092)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 71 (id=000000000093)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 72 (id=000000000094)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 73 (id=000000000095)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 74 (id=000000000097)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 75 (id=000000000100)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 76 (id=000000000101)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 77 (id=000000000103)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 78 (id=000000000105)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 79 (id=000000000106)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 80 (id=000000000107)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 81 (id=000000000108)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 82 (id=000000000109)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 83 (id=000000000110)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 84 (id=000000000111)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 85 (id=000000000112)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 86 (id=000000000115)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 87 (id=000000000116)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 88 (id=000000000117)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 89 (id=000000000118)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 90 (id=000000000119)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 91 (id=000000000120)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 92 (id=000000000121)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 93 (id=000000000123)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 94 (id=000000000124)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 95 (id=000000000125)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 96 (id=000000000127)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 97 (id=000000000130)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 98 (id=000000000131)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 99 (id=000000000133)                                                                                      dataset.py:46
+DEB  | Dataset            | Processing sample 100 (id=000000000134)                                                                                     dataset.py:46
+DEB  | Dataset            | Processing sample 101 (id=000000000135)                                                                                     dataset.py:46
+DEB  | Dataset            | Processing sample 102 (id=000000000136)                                                                                     dataset.py:46
+DEB  | Dataset            | Processing sample 103 (id=000000000137)                                                                                     dataset.py:46
+DEB  | Dataset            | Processing sample 104 (id=000000000139)                                                                                     dataset.py:46
+INFO | Dataset            | Finished processing 105 samples                                                                                             dataset.py:63
+INFO | Dataset            | Sample ID: 000000000001                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a round cake with orange frosting on a wooden plate                                                          dataset.py:72
+DEB  | Dataset            | Target prompt: a [square] cake with [strawberry frosting] on a [plastic] plate                                              dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a square cake with orange frosting on a wooden plate', 'a square cake with strawberry frosting on a wooden  dataset.py:74
+     |                    | plate', 'a square cake with strawberry frosting on a plastic plate']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000003                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: blue light, a black and white cat is playing with a flower                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: blue light, a black and white [dog] is playing with a [yellow] [ball]                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['blue light, a black and white dog is playing with a flower', 'blue light, a black and white dog is playing  dataset.py:74
+     |                    | with yellow a flower', 'blue light, a black and white dog is playing with yellow a ball']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000005                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: an orange cat sitting on top of a fence                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: an [white] cat [and a dog] [standing] on top of a fence                                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['an white cat sitting on top of a fence', 'an white and a dog cat sitting on top of a fence', 'an white and  dataset.py:74
+     |                    | a dog cat standing on top of a fence']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000006                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cup of coffee with drawing of tulip putted on the wooden table                                             dataset.py:72
+DEB  | Dataset            | Target prompt: a [yellow] cup of [milk] with drawing of [rose] putted on the wooden table                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['yellow a cup of coffee with drawing of tulip putted on the wooden table', 'yellow a cup of milk with        dataset.py:74
+     |                    | drawing of tulip putted on the wooden table', 'yellow a cup of milk with drawing of rose putted on the wooden table']
+DEB  | Dataset            | Image type: <class 'PIL.PngImagePlugin.PngImageFile'>                                                                       dataset.py:75
+INFO | Dataset            | Sample ID: 000000000009                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a dog is laying down on a white background                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: [Painting of] a [lion] laying down on a [blue background]                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a dog is laying down on a white Painting of background', 'a lion is laying down on a white Painting of      dataset.py:74
+     |                    | background', 'a lion is laying down on a white Painting of background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000010                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: photo of a goat and a cat standing on rocks near the ocean                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: photo of a [white] [horse] and a cat [sitting] on rocks near the ocean                                       dataset.py:73
+DEB  | Dataset            | Edit prompts: ['photo of a horse and a cat standing on rocks near the ocean', 'photo of white a horse and a cat standing    dataset.py:74
+     |                    | on rocks near the ocean', 'photo of white a horse and a cat sitting on rocks near the ocean']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000013                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: three white dumplings on brown wooden bowl                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: three white [cupcakes] on [black] [metal] bowl                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['three white cupcakes on brown wooden bowl', 'three white cupcakes on black wooden bowl', 'three white       dataset.py:74
+     |                    | cupcakes on metal black wooden bowl']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000015                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: white plate with fruits on it                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: [Blue] [metal] plate with [vegatables] on it                                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['Blue plate with fruits on it', 'metal Blue plate with fruits on it', 'metal Blue plate with vegatables on   dataset.py:74
+     |                    | it']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000016                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a plate with grilled steak on it                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] plate with grilled [salmon] [and mushroom] on it                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['white a plate with grilled steak on it', 'white a plate with grilled salmon on it', 'white a plate with     dataset.py:74
+     |                    | and mushroom grilled salmon on it']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000017                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: photo of a statue in front view                                                                              dataset.py:72
+DEB  | Dataset            | Target prompt: photo of a [white] [Teddy Bear] [in side view]                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['photo of white a statue in front view', 'photo of white a Teddy Bear in front view', 'photo of white a      dataset.py:74
+     |                    | Teddy Bear in side view']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000018                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: the statue of liberty holding a torch                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: the statue of [angel] holding a [red] [flower]                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['the statue of angel holding a torch', 'the statue of angel holding red a torch', 'the statue of angel       dataset.py:74
+     |                    | holding red a flower']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000020                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two birds sitting on a branch                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: two [toy] [cats] [standing] on a branch                                                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['toy two birds sitting on a branch', 'toy two cats sitting on a branch', 'toy two cats standing on a         dataset.py:74
+     |                    | branch']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000021                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two parrots sitting on a stick, city street background                                                       dataset.py:72
+DEB  | Dataset            | Target prompt: two [metal] [owls] sitting on a stick, [forest] background                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['metal two parrots sitting on a stick, city street background', 'metal two owls sitting on a stick, city     dataset.py:74
+     |                    | street background', 'metal two owls sitting on a stick, forest street background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000023                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a gray horse in the field                                                                                    dataset.py:72
+DEB  | Dataset            | Target prompt: a [black] [cow] [with white patterns] in the field                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a black horse in the field', 'a black cow in the field', 'a black with white patterns cow in the field']    dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000024                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a white horse running in the sunset                                                                          dataset.py:72
+DEB  | Dataset            | Target prompt: a [golden] [dog] [jumping] in the sunset                                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a golden horse running in the sunset', 'a golden dog running in the sunset', 'a golden dog jumping in the   dataset.py:74
+     |                    | sunset']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000027                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a opened eyes cat sitting on wooden floor                                                                    dataset.py:72
+DEB  | Dataset            | Target prompt: a [closed eyes] [dog] sitting on [green grass]                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a closed eyes cat sitting on wooden floor', 'a closed eyes dog sitting on wooden floor', 'a closed eyes     dataset.py:74
+     |                    | dog sitting on green grass']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000028                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: white flowers on a tree branch with blue sky background                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: [Painting of] [red] flowers on a tree branch with [white background]                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['white flowers on a tree branch with blue sky Painting of background', 'red white flowers on a tree branch   dataset.py:74
+     |                    | with blue sky Painting of background', 'red white flowers on a tree branch with blue sky Painting of background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000029                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a kitten walking on the grass                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a [duck] [sitting] on the [floor]                                                                            dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a duck walking on the grass', 'a duck sitting on the grass', 'a duck sitting on the floor']                 dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000030                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a stream in a lush forest with rocks                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: a [road] in a lush [city] with [black] rocks                                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a road in a lush forest with rocks', 'a road in a lush city with rocks', 'a road in a lush city black with  dataset.py:74
+     |                    | rocks']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000032                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a group of pink flowers hanging from a tree                                                                  dataset.py:72
+DEB  | Dataset            | Target prompt: a group of [red] [apples] hanging from a [big] tree                                                          dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a group of red flowers hanging from a tree', 'a group of red apples hanging from a tree', 'a group of red   dataset.py:74
+     |                    | apples hanging from big a tree']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000033                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cartoon of a boy walking his dog in autumn                                                                 dataset.py:72
+DEB  | Dataset            | Target prompt: a [painting] of a boy walking his [cat] in [winter]                                                          dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a painting of a boy walking his dog in autumn', 'a painting of a boy walking his cat in autumn', 'a         dataset.py:74
+     |                    | painting of a boy walking his cat in winter']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000034                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a mother duck and her babies are standing near the water                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: [a sketch painting of] a mother [cat] and her babies are standing near the [forest]                          dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a mother duck and her babies are standing near the a sketch painting of water', 'a mother cat and her       dataset.py:74
+     |                    | babies are standing near the a sketch painting of water', 'a mother cat and her babies are standing near the a sketch
+     |                    | painting of forest']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000035                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: photograph, window of the world by jimmy kirk                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: [painting], [yellow] [ball] of the world by jimmy kirk                                                       dataset.py:73
+DEB  | Dataset            | Edit prompts: ['painting, window of the world by jimmy kirk', 'yellow painting, window of the world by jimmy kirk',         dataset.py:74
+     |                    | 'yellow painting, ball of the world by jimmy kirk']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000036                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: smoke                                                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: [red] [flame] [in the dark]                                                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['red smoke', 'red flame', 'in the dark red flame']                                                           dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000038                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a little girl with green eyes and flowers in a blue dress                                                    dataset.py:72
+DEB  | Dataset            | Target prompt: a little girl with [blue] eyes and [yellow] flowers in a blue [coat]                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a little girl with blue eyes and flowers in a blue dress', 'a little girl with blue eyes yellow and         dataset.py:74
+     |                    | flowers in a blue dress', 'a little girl with blue eyes yellow and flowers in a blue coat']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000039                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two ducks in the dirt                                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: two [cats] [swimming] in the [sea]                                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['two cats in the dirt', 'two swimming cats in the dirt', 'two swimming cats in the sea']                     dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000042                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a black wolf is standing on rocks in a dark forest                                                           dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] [dog] is standing on rocks in a [bright] forest                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a white wolf is standing on rocks in a dark forest', 'a white dog is standing on rocks in a dark forest',   dataset.py:74
+     |                    | 'a white dog is standing on rocks in a bright forest']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000043                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a large red cargo ship in the ocean at sunset                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a [small] [blue] [cruise] ship in the ocean at sunset                                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a small red cargo ship in the ocean at sunset', 'a small blue cargo ship in the ocean at sunset', 'a small  dataset.py:74
+     |                    | blue cruise ship in the ocean at sunset']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000044                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cat sitting in the grass                                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: a [yellow] cat [with red scarf] sitting in the [flowers]                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['yellow a cat sitting in the grass', 'yellow with red scarf a cat sitting in the grass', 'yellow with red    dataset.py:74
+     |                    | scarf a cat sitting in the flowers']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000045                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: the christmas illustration of a santa's laughing face                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: the christmas [card] of a santa's [angry] face [with red mustache]                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ["the christmas card of a santa's laughing face", "the christmas card of a santa's angry face", "the          dataset.py:74
+     |                    | christmas card of a santa's angry with red mustache face"]
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000046                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: painting of clouds in the sky                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: [photo] of [pink] [stars] in the sky                                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['photo of clouds in the sky', 'photo pink of clouds in the sky', 'photo pink of stars in the sky']           dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000047                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: rusty car by jill kaufman                                                                                    dataset.py:72
+DEB  | Dataset            | Target prompt: [shiny] [blue] [bus] by jill kaufman                                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['shiny car by jill kaufman', 'blue shiny car by jill kaufman', 'blue shiny bus by jill kaufman']             dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000048                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: sunset over a field with clouds and a bright sky                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: sunset over a field with [pink] [stars] and a [dark] sky                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['sunset over a field pink with clouds and a bright sky', 'sunset over a field pink with stars and a bright   dataset.py:74
+     |                    | sky', 'sunset over a field pink with stars and a dark sky']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000049                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: black chair in a conference room                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: [yellow] [metal] chair [with black dots] in a conference room                                                dataset.py:73
+DEB  | Dataset            | Edit prompts: ['yellow chair in a conference room', 'metal yellow chair in a conference room', 'metal with black dots       dataset.py:74
+     |                    | yellow chair in a conference room']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000050                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a bird standing on clods                                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a [cat] [jumping] on [eggs]                                                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a cat standing on clods', 'a cat jumping on clods', 'a cat jumping on eggs']                                dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000052                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a logo of bird shape in a black background                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: a logo of [X] [with pink color] in a [light background]                                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a logo of X shape in a black background', 'a logo of with pink color X shape in a black background', 'a     dataset.py:74
+     |                    | logo of with pink color X shape in a light background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000053                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a fluffy dog with a blue leash sitting in the grass                                                          dataset.py:72
+DEB  | Dataset            | Target prompt: a fluffy [cat] with a blue leash [jumping] on the [ground]                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a fluffy cat with a blue leash sitting in the grass', 'a fluffy cat with a blue leash jumping in the        dataset.py:74
+     |                    | grass', 'a fluffy cat with a blue leash jumping in the ground']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000054                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a camera and a notebook on a bed                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: a [red] [ball] and a notebook on a [table]                                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['red a camera and a notebook on a bed', 'red a ball and a notebook on a bed', 'red a ball and a notebook on  dataset.py:74
+     |                    | a table']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000055                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a black dog is looking at the camera in the snow                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] [tiger] is looking at the camera in the [rain]                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a white dog is looking at the camera in the snow', 'a white tiger is looking at the camera in the snow',    dataset.py:74
+     |                    | 'a white tiger is looking at the camera in the rain']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000056                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a meerkat puppy wrapped in a blue towel                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: a [lion] puppy [with black fur] wrapped in a blue [coat]                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a lion puppy wrapped in a blue towel', 'a lion with black fur wrapped in a blue towel', 'a lion with black  dataset.py:74
+     |                    | fur wrapped in coat a blue towel']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000057                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: an owl sitting on a branch                                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: [a photo of] an owl [jumping] on a [rock]                                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['an owl sitting on a a photo of branch', 'an owl jumping on a a photo of branch', 'an owl jumping on a a     dataset.py:74
+     |                    | photo of rock']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000058                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: purple tulips in vase                                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: [yellow] [roses] in [blue] vase                                                                              dataset.py:73
+DEB  | Dataset            | Edit prompts: ['yellow tulips in vase', 'yellow roses in vase', 'yellow roses blue in vase']                                dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000059                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cartoon goat                                                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a cartoon [cat] [face backward] [is jumping]                                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a cartoon cat', 'a cartoon face backward cat', 'a cartoon face is jumping backward cat']                    dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000060                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a yellow apple sitting on top of a wooden table                                                              dataset.py:72
+DEB  | Dataset            | Target prompt: a [red] [pear] sitting on top of a [glass] table                                                             dataset.py:73
+DEB  | Dataset            | Edit prompts: ['red a yellow apple sitting on top of a wooden table', 'red a yellow pear sitting on top of a wooden         dataset.py:74
+     |                    | table', 'red a yellow pear sitting on top of a glass table']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000061                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a mid autumn road lined with trees and leaves                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a mid [winter] road [with rocks] lined with trees and [flowers]                                              dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a mid winter road lined with trees and leaves', 'a mid winter with rocks road lined with trees and          dataset.py:74
+     |                    | leaves', 'a mid winter with rocks road lined with trees and flowers']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000062                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a rabbit is sitting in a pile of colorful eggs                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a [cat] is [sleeping] in a pile of colorful [stones]                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a cat is sitting in a pile of colorful eggs', 'a cat is sleeping in a pile of colorful eggs', 'a cat is     dataset.py:74
+     |                    | sleeping in a pile of colorful stones']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000063                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a vase with some blooming flowers in it                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] vase with some [wilted] [vegatables] in it                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['white a vase with some blooming flowers in it', 'white a vase wilted with some blooming flowers in it',     dataset.py:74
+     |                    | 'white a vase wilted with some blooming vegatables in it']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000064                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman in front of a glowing yellow light                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: a woman [riding a lion] in front of a glowing [red] [flame]                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a riding a lion woman in front of a glowing yellow light', 'a riding a lion woman in front of a glowing     dataset.py:74
+     |                    | red light', 'a riding a lion woman in front of a glowing red flame']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000065                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a bird is sitting on a branch with moss                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: a [blue] bird is [standing] on a [stone]                                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['blue a bird is sitting on a branch with moss', 'blue a bird is standing on a branch with moss', 'blue a     dataset.py:74
+     |                    | bird is standing on a stone']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000066                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a dalmatian dog laying on the ground                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: [painting of] a [german shepherd] [standing] on the ground                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a dalmatian dog laying on the painting of ground', 'a german shepherd laying on the painting of ground',    dataset.py:74
+     |                    | 'a german shepherd standing on the painting of ground']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000067                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman in a jacket standing in the rain                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a woman in a [white] [shirt] [crying] in the rain                                                            dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a woman in white a jacket standing in the rain', 'a woman in white a shirt standing in the rain', 'a woman  dataset.py:74
+     |                    | in white a shirt crying in the rain']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000069                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: sea and house                                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: [forest] [with snow] and [bus]                                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['sea and forest house', 'with snow and forest house', 'with snow and forest bus']                            dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000071                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: an apple with two faces on it in a white background                                                          dataset.py:72
+DEB  | Dataset            | Target prompt: an [orange] with two [hands] on it in a [dark background]                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['an orange with two faces on it in a white background', 'an orange with two hands on it in a white           dataset.py:74
+     |                    | background', 'an orange with two hands on it in a dark background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000072                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: colorful cups                                                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: [wooden] [green] [vases]                                                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['colorful wooden cups', 'green wooden cups', 'green wooden vases']                                           dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000073                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a spring field with trees and a blue sky                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a [autumn] field with [buildings] and a [pink] sky                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a autumn field with trees and a blue sky', 'a autumn field with buildings and a blue sky', 'a autumn field  dataset.py:74
+     |                    | with buildings and a pink sky']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000075                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman with flowers around her face                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: a woman with [cats] [and dogs] [playing] around her face                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a woman with cats around her face', 'a woman with and dogs cats around her face', 'a woman with and         dataset.py:74
+     |                    | playing dogs cats around her face']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000076                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a painting of a cup with a smoke coming out of it                                                            dataset.py:72
+DEB  | Dataset            | Target prompt: a painting of a [golden] [vase] with a [flower] coming out of it                                             dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a painting of golden a cup with a smoke coming out of it', 'a painting of golden a vase with a smoke        dataset.py:74
+     |                    | coming out of it', 'a painting of golden a vase with a flower coming out of it']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000077                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a painting of a cabin in the snow with mountains in the background                                           dataset.py:72
+DEB  | Dataset            | Target prompt: a painting of a [car] in the snow with [colorful] [buildings] in the background                              dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a painting of a car in the snow with mountains in the background', 'a painting of a car in the snow         dataset.py:74
+     |                    | colorful with mountains in the background', 'a painting of a car in the snow colorful with buildings in the background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000078                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: ocean with clouds in the sky                                                                                 dataset.py:72
+DEB  | Dataset            | Target prompt: ocean with [stars] [shining] in the [pink] sky                                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['ocean with stars in the sky', 'ocean shining with stars in the sky', 'ocean shining with stars pink in the  dataset.py:74
+     |                    | sky']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000080                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cat is shown in a low polygonal style                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: a [fox] is shown [smiling] in a [high polygonal style]                                                       dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a fox is shown in a low polygonal style', 'a fox is smiling shown in a low polygonal style', 'a fox is      dataset.py:74
+     |                    | smiling shown in a high polygonal style']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000082                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cute dog holding a red heart                                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a cute [cat] holding a [pink] [ball]                                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a cute cat holding a red heart', 'a cute cat holding pink a red heart', 'a cute cat holding pink a red      dataset.py:74
+     |                    | ball']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000083                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a water droplet hangs from a string of lights                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a [ink] droplet hangs from a string of [flashing] [red] lights                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a ink droplet hangs from a string of lights', 'a ink droplet hangs from a string flashing of lights', 'a    dataset.py:74
+     |                    | ink droplet hangs from a string red flashing of lights']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000084                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two red and white toy gnomes are sitting on a snow covered surface                                           dataset.py:72
+DEB  | Dataset            | Target prompt: two [blue and green] toy [cats] are [standing] on a snow covered surface                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['two blue and green toy gnomes are sitting on a snow covered surface', 'two blue and green toy cats are      dataset.py:74
+     |                    | sitting on a snow covered surface', 'two blue and green toy cats are standing on a snow covered surface']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000085                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: wolf howling at the moon with a outline of a wolf                                                            dataset.py:72
+DEB  | Dataset            | Target prompt: [dog] howling at the [sun] with a outline of a [person]                                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['dog howling at the moon with a outline of a dog', 'dog howling at the sun with a outline of a dog', 'dog    dataset.py:74
+     |                    | howling at the sun with a outline of a dog']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000086                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: the almond tree is blooming in the spring                                                                    dataset.py:72
+DEB  | Dataset            | Target prompt: the [violet] [cherry] tree is blooming in the [winter]                                                       dataset.py:73
+DEB  | Dataset            | Edit prompts: ['violet the almond tree is blooming in the spring', 'violet the cherry tree is blooming in the spring',      dataset.py:74
+     |                    | 'violet the cherry tree is blooming winter in the spring']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000087                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a jockey rides a horse on a grassy field                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a [girl] rides a [dog] on a [snow] field                                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a girl rides a horse on a grassy field', 'a girl rides a dog on a grassy field', 'a girl rides a dog on a   dataset.py:74
+     |                    | snow field']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000088                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a plate with rice, lemon slices and fish                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a plate with rice, [apple] slices and [steak]                                                                dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a plate with , lemon slices and fish', 'a plate with , apple slices and fish', 'a plate with , apple        dataset.py:74
+     |                    | slices and steak']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000089                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two red berries on a tree branch with a blue sky in the background                                           dataset.py:72
+DEB  | Dataset            | Target prompt: two [purple] [apples] on a tree branch with a [pink] sky in the background                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['two purple berries on a tree branch with a blue sky in the background', 'two purple apples on a tree        dataset.py:74
+     |                    | branch with a blue sky in the background', 'two purple apples on a tree branch with a pink sky in the background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000090                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a drawing of a woman with a towel on her head                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a drawing of a woman with a [colorfull] [hat] on her head [and a dress on her body]                          dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a drawing of a woman with colorfull a towel on her head', 'a drawing of a woman with colorfull a hat on     dataset.py:74
+     |                    | her head', 'a drawing of a woman with colorfull a hat on and a dress on her body her head']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000091                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a girl sitting at a table with pizza and drinks                                                              dataset.py:72
+DEB  | Dataset            | Target prompt: a girl [with flowers] sitting at a table with [noodles] and [cakes]                                          dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a with flowers girl sitting at a table with pizza and drinks', 'a with flowers girl sitting at a table      dataset.py:74
+     |                    | with noodles and drinks', 'a with flowers girl sitting at a table with noodles and cakes']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000092                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: lilas and book on wooden surface                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: lilas and [cakes] on [black] [glass] surface                                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['lilas and cakes on wooden surface', 'lilas and cakes black on wooden surface', 'lilas and cakes black on    dataset.py:74
+     |                    | glass surface']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000093                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a collie dog is sitting on a bed                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: a [garfield cat] is [sleeping] on a [sofa]                                                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a garfield cat is sitting on a bed', 'a garfield cat is sleeping on a bed', 'a garfield cat is sleeping on  dataset.py:74
+     |                    | a sofa']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000094                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cat is sitting on a red blanket                                                                            dataset.py:72
+DEB  | Dataset            | Target prompt: a cat is [sleeping] on a [blue] [sweater]                                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a cat is sleeping on a red blanket', 'a cat is sleeping on a blue blanket', 'a cat is sleeping on a blue    dataset.py:74
+     |                    | sweater']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000095                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a painting of a fairy with green wings holding a glowing jar                                                 dataset.py:72
+DEB  | Dataset            | Target prompt: a painting of a fairy with [purple] wings holding a [white] [crystal ball]                                   dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a painting of a fairy with purple wings holding a glowing jar', 'a painting of a fairy with purple wings    dataset.py:74
+     |                    | holding white a glowing jar', 'a painting of a fairy with purple wings holding white a crystal ball']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000097                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a vase of colorful flowers on a wooden table                                                                 dataset.py:72
+DEB  | Dataset            | Target prompt: a [metal] vase of colorful [rose] flowers on a [white] table                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['metal a vase of colorful flowers on a wooden table', 'metal a vase of colorful rose on a wooden table',     dataset.py:74
+     |                    | 'metal a vase of colorful rose on a white table']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000100                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman in black holding an umbrella walks through a field                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: a woman in [red] holding an umbrella [runs] through a [forest]                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a woman in red holding an umbrella walks through a field', 'a woman in red holding an umbrella runs         dataset.py:74
+     |                    | through a field', 'a woman in red holding an umbrella runs through a forest']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000101                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: poppies                                                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: [blue] poppies [and bees] [in winter]                                                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['blue poppies', 'and bees blue poppies', 'in winter and bees blue poppies']                                  dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000103                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: an abstract painting of waves and water                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: an [digital painting] of [stars] and [moon]                                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['an digital painting of waves and water', 'an digital painting of stars and water', 'an digital painting of  dataset.py:74
+     |                    | stars and moon']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000105                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: cat with yellow eyes                                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: [fat] [orange] cat with [green eyes]                                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['cat with yellow fat eyes', 'cat with yellow fat orange eyes', 'cat with yellow fat orange eyes']            dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000106                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a red mushroom with white spots on it is sitting on the ground                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a [blue] [umbrella] with [rainbow] spots on it is sitting on the ground                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a blue mushroom with white spots on it is sitting on the ground', 'a blue umbrella with white spots on it   dataset.py:74
+     |                    | is sitting on the ground', 'a blue umbrella with rainbow spots on it is sitting on the ground']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000107                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a bird on the branch                                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: a [red] [wodden] [duck] on the branch                                                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['red a bird on the branch', 'wodden red a bird on the branch', 'wodden red a duck on the branch']            dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000108                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman sitting in a living room                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: [watercolor painting of] a [boy] [standing] in a living room                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a woman sitting in a living watercolor painting of room', 'a boy sitting in a living watercolor painting    dataset.py:74
+     |                    | of room', 'a boy standing in a living watercolor painting of room']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000109                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a farm with a thatched roof and trees in the background                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: a [school] with a [red] [tile] roof and trees in the background                                              dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a school with a thatched roof and trees in the background', 'a school with red a thatched roof and trees    dataset.py:74
+     |                    | in the background', 'a school with red a tile roof and trees in the background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000110                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a young woman is holding a dog                                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a [old woman] is holding a [white] [cat]                                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a old woman is holding a dog', 'a old woman is holding white a dog', 'a old woman is holding white a cat']  dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000111                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a cat with green eyes sitting on the ground                                                                  dataset.py:72
+DEB  | Dataset            | Target prompt: a [dog] with [blue eyes] [standing] on the ground                                                            dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a dog with green eyes sitting on the ground', 'a dog with blue eyes sitting on the ground', 'a dog with     dataset.py:74
+     |                    | blue eyes standing on the ground']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000112                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a group of rubber ducks are lined up in a canal                                                              dataset.py:72
+DEB  | Dataset            | Target prompt: a group of [pink] [plush ducks] are [swimming] in a canal                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a group pink of rubber ducks are lined up in a canal', 'a group pink of plush ducks are lined up in a       dataset.py:74
+     |                    | canal', 'a group pink of plush ducks are swimming in a canal']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000115                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: two ducks standing next to each other                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: two [colorful] [birds] [flying] next to each other                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['two birds standing next to each other', 'colorful two birds standing next to each other', 'colorful two     dataset.py:74
+     |                    | birds flying next to each other']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000116                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: easter eggs in a teacup                                                                                      dataset.py:72
+DEB  | Dataset            | Target prompt: [colorful] [dinosaur eggs] in a [glass]                                                                      dataset.py:73
+DEB  | Dataset            | Edit prompts: ['easter eggs in a colorful teacup', 'dinosaur eggs in a colorful teacup', 'dinosaur eggs in a colorful       dataset.py:74
+     |                    | glass']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000117                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a pink flower with yellow center in the middle                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a [blue] flower with [red] [bee] center in the middle                                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a blue flower with yellow center in the middle', 'a blue flower with red center in the middle', 'a blue     dataset.py:74
+     |                    | flower with bee red center in the middle']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000118                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a small bird is sitting on a branch in a field                                                               dataset.py:72
+DEB  | Dataset            | Target prompt: a [big] [cat] is sitting on a branch in a [forest]                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['big a small bird is sitting on a branch in a field', 'big a small cat is sitting on a branch in a field',   dataset.py:74
+     |                    | 'big a small cat is sitting on a branch in a forest']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000119                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a woman in red sitting on a chair with castle in the background                                              dataset.py:72
+DEB  | Dataset            | Target prompt: a woman in [white] [crying] on a chair with [ghost] in the background                                        dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a woman in white sitting on a chair with castle in the background', 'a woman in white crying on a chair     dataset.py:74
+     |                    | with castle in the background', 'a woman in white crying on a chair with ghost in the background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000120                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: woman with brown hair                                                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: woman with [pink] [straight] hair [and blue eyes]                                                            dataset.py:73
+DEB  | Dataset            | Edit prompts: ['woman with pink hair', 'woman with pink straight hair', 'woman with pink straight and blue eyes hair']      dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000121                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: watercolor of leaves on a branch                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: [oilpainting] of [pink] [roses] on a branch                                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['oilpainting of leaves on a branch', 'oilpainting pink of leaves on a branch', 'oilpainting pink of roses    dataset.py:74
+     |                    | on a branch']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000123                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: gold buddha statue in the temple                                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: [red] [stone] buddha statue [with diamonds] in the temple                                                    dataset.py:73
+DEB  | Dataset            | Edit prompts: ['gold buddha statue in the red temple', 'stone buddha statue in the red temple', 'stone buddha with          dataset.py:74
+     |                    | diamonds statue in the red temple']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000124                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: the galaxy over the durdle door                                                                              dataset.py:72
+DEB  | Dataset            | Target prompt: the [pink] [sunset] [and rainbow] over the durdle door                                                       dataset.py:73
+DEB  | Dataset            | Edit prompts: ['pink the galaxy over the durdle door', 'pink the sunset over the durdle door', 'pink and rainbow the        dataset.py:74
+     |                    | sunset over the durdle door']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000125                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a close up of a purple flower on a black background                                                          dataset.py:72
+DEB  | Dataset            | Target prompt: a close up of a [blue] flower [lego] on a [light background]                                                 dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a close up of a blue flower on a black background', 'a close up of a blue lego on a black background', 'a   dataset.py:74
+     |                    | close up of a blue lego on a light background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000127                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a boat is docked on a lake in the heavy fog                                                                  dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] boat [with boxes] is docked on a lake in the [sunny day]                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['white a boat is docked on a lake in the heavy fog', 'white with boxes a boat is docked on a lake in the     dataset.py:74
+     |                    | heavy fog', 'white with boxes a boat is docked on a lake in the sunny day']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000130                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a toy figure of naruto standing on a table                                                                   dataset.py:72
+DEB  | Dataset            | Target prompt: a toy figure of [cat] [sitting] on a [rock]                                                                  dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a toy figure of cat standing on a table', 'a toy figure of cat sitting on a table', 'a toy figure of cat    dataset.py:74
+     |                    | sitting on a rock']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000131                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a swan swimming in a pond with its head out the water                                                        dataset.py:72
+DEB  | Dataset            | Target prompt: a swan swimming in a [pool] with its [wings] [under] the water                                               dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a swan swimming in a pool with its head out the water', 'a swan swimming in a pool with its wings out the   dataset.py:74
+     |                    | water', 'a swan swimming in a pool with its wings under the water']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000133                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a lion in the sky with a blue background                                                                     dataset.py:72
+DEB  | Dataset            | Target prompt: a [white] [dog] in the sky with a [red background]                                                           dataset.py:73
+DEB  | Dataset            | Edit prompts: ['white a lion in the sky with a blue background', 'white a dog in the sky with a blue background', 'white a  dataset.py:74
+     |                    | dog in the sky red background with a blue background']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000134                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a black and white bird flying in the blue sky                                                                dataset.py:72
+DEB  | Dataset            | Target prompt: a [red and white] [chicken] flying in the [pink] sky                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a red and white bird flying in the blue sky', 'a red and white chicken flying in the blue sky', 'a red and  dataset.py:74
+     |                    | white chicken flying in the pink sky']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000135                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: the two people are standing on rocks with a fish                                                             dataset.py:72
+DEB  | Dataset            | Target prompt: the two [old] people are [sitting] on [boat] with a fish                                                     dataset.py:73
+DEB  | Dataset            | Edit prompts: ['the old two people are standing on rocks with a fish', 'the old two people are sitting on rocks with a      dataset.py:74
+     |                    | fish', 'the old two people are sitting on boat with a fish']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000136                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a yellow bird sitting on a branch                                                                            dataset.py:72
+DEB  | Dataset            | Target prompt: a [blue] [parrot] sitting on a [green] branch                                                                dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a blue bird sitting on a branch', 'a blue parrot sitting on a branch', 'a blue parrot sitting on green a    dataset.py:74
+     |                    | branch']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000137                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a golden pagoda in the snow                                                                                  dataset.py:72
+DEB  | Dataset            | Target prompt: a [red] pagoda in the [heavy] [rain]                                                                         dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a red pagoda in the snow', 'a red pagoda in heavy the snow', 'a red pagoda in heavy the rain']              dataset.py:74
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+INFO | Dataset            | Sample ID: 000000000139                                                                                                     dataset.py:71
+DEB  | Dataset            | Source prompt: a duck standing on a rock near water                                                                         dataset.py:72
+DEB  | Dataset            | Target prompt: a [chicken] [sitting] on a [board] near water                                                                dataset.py:73
+DEB  | Dataset            | Edit prompts: ['a chicken standing on a rock near water', 'a chicken sitting on a rock near water', 'a chicken sitting on   dataset.py:74
+     |                    | a board near water']
+DEB  | Dataset            | Image type: <class 'PIL.JpegImagePlugin.JpegImageFile'>                                                                     dataset.py:75
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:26:59
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:26:59
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:46:58
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:47:59
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:48:35
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:48:57
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:49:29
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:50:45
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:51:59
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:52:15
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:53:47
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:54:47
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:55:19
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:55:36
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:55:55
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:56:03
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:56:05
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:56:10
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                        run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                        run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:56:12
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                               watermark_anything.py:42
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:57:33
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                          config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:57:34
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                              dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                     dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                      dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:57:40
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                 run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                 run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:57:41
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                        watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                      watermark_anything.py:53
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:59:39
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                          config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:59:41
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                              dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                     dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                      dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:59:47
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                 run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                 run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 02:59:48
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                        watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                      watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                             watermark_anything.py:55
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                       watermark_anything.py:66
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:02:26
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from                                     config.py:22
+     |                    | /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.y
+     |                    | aml
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:02:28
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:02:33
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                  run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                  run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:02:35
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:55
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                                                     watermark_anything.py:66
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:04:32
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:05:31
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:05:33
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:05:39
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                                               run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                                               run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:05:41
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:55
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                                                     watermark_anything.py:66
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:06:30
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from                       config.py:22
+     |                    | /home/shreyas/Desktop/Shreyas/Projects/Falcon/co
+     |                    | nfigs/config.yaml
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:06:32
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit        dataset.py:26
+     |                    | (split=V1) ...
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total        dataset.py:36
+     |                    | samples
+INFO | Dataset            | Finished processing 105 samples                 dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:06:37
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001            run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at           run_single.py:43
+     |                    | experiments/image_000000000001
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:06:39
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:55
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                                                     watermark_anything.py:66
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:08:11
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from                       config.py:22
+     |                    | /home/shreyas/Desktop/Shreyas/Projects/Falcon/co
+     |                    | nfigs/config.yaml
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:08:13
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit        dataset.py:26
+     |                    | (split=V1) ...
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total        dataset.py:36
+     |                    | samples
+INFO | Dataset            | Finished processing 105 samples                 dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:08:18
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001            run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at           run_single.py:43
+     |                    | experiments/image_000000000001
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:08:20
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                   watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                 watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully        watermark_anything.py:55
+INFO | WAM                | Processing sample at                 watermark_anything.py:66
+     |                    | experiments/image_000000000001
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:09:53
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:09:54
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:10:00
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                                               run_single.py:55
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                                               run_single.py:43
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:10:02
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:55
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                                                     watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000001 | Bit Acc: 1.000                                                                                      watermark_anything.py:126
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:10:59
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                          config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:11:01
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                              dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                     dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                      dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:11:08
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                        watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                      watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                             watermark_anything.py:55
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:11:08
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000001 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000003                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000003 at experiments/image_000000000003                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000003                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000003 | Bit Acc: 1.000                                                        watermark_anything.py:126

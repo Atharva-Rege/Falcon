@@ -1,0 +1,23 @@
+# Global configuration file
+
+dataset:
+  name: "SRDdev/AI-TextImageEdit"
+  split: "V1"
+  limit: 105
+
+paths:
+  data_dir: "data/"
+  experiments_dir: "experiments/"
+
+logging:
+  level: "DEBUG"
+
+models:
+  watermarking:
+    - "wm_model1"
+    - "wm_model2"
+  editing:
+    - "edit_model1"
+    - "edit_model2"
+  detection:
+    - "detector1"
