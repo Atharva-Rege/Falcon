@@ -55,7 +55,7 @@ def main():
     wam = WatermarkAnythingWrapper(model_name="wam")
 
     # 3. Loop through and process the first two samples
-    for sample in samples[:2]:  # Using list slicing to get the first 2
+    for sample in samples[:105]:  # Using list slicing to get the first 2
         logger.info(f"Processing sample id={sample['id']}")
 
         # Save the current sample to the experiments/ structure

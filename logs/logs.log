@@ -1175,3 +1175,450 @@ INFO | Main               | Processing sample id=000000000003                   
 INFO | Main               | Saved sample image_000000000003 at experiments/image_000000000003                                                 run_single.py:43
 INFO | WAM                | Processing sample at experiments/image_000000000003                                                       watermark_anything.py:66
 INFO | WAM                | ✅ Done sample image_000000000003 | Bit Acc: 1.000                                                        watermark_anything.py:126
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:30:37
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                          config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:30:39
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                              dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                     dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                      dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:30:46
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                        watermark_anything.py:42
+INFO | WAM                | Loading WAM model...                                                                                      watermark_anything.py:53
+INFO | WAM                | WAM model loaded successfully                                                                             watermark_anything.py:55
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 03:30:47
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000001                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000001 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000003                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000003 at experiments/image_000000000003                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000003                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000003 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000005                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000005 at experiments/image_000000000005                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000005                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000005 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000006                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000006 at experiments/image_000000000006                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000006                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000006 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000009                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000009 at experiments/image_000000000009                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000009                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000009 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000010                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000010 at experiments/image_000000000010                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000010                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000010 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000013                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000013 at experiments/image_000000000013                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000013                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000013 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000015                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000015 at experiments/image_000000000015                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000015                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000015 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000016                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000016 at experiments/image_000000000016                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000016                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000016 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000017                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000017 at experiments/image_000000000017                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000017                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000017 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000018                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000018 at experiments/image_000000000018                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000018                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000018 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000020                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000020 at experiments/image_000000000020                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000020                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000020 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000021                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000021 at experiments/image_000000000021                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000021                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000021 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000023                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000023 at experiments/image_000000000023                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000023                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000023 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000024                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000024 at experiments/image_000000000024                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000024                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000024 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000027                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000027 at experiments/image_000000000027                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000027                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000027 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000028                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000028 at experiments/image_000000000028                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000028                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000028 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000029                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000029 at experiments/image_000000000029                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000029                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000029 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000030                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000030 at experiments/image_000000000030                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000030                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000030 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000032                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000032 at experiments/image_000000000032                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000032                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000032 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000033                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000033 at experiments/image_000000000033                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000033                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000033 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000034                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000034 at experiments/image_000000000034                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000034                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000034 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000035                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000035 at experiments/image_000000000035                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000035                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000035 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000036                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000036 at experiments/image_000000000036                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000036                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000036 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000038                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000038 at experiments/image_000000000038                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000038                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000038 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000039                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000039 at experiments/image_000000000039                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000039                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000039 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000042                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000042 at experiments/image_000000000042                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000042                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000042 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000043                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000043 at experiments/image_000000000043                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000043                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000043 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000044                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000044 at experiments/image_000000000044                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000044                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000044 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000045                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000045 at experiments/image_000000000045                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000045                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000045 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000046                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000046 at experiments/image_000000000046                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000046                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000046 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000047                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000047 at experiments/image_000000000047                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000047                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000047 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000048                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000048 at experiments/image_000000000048                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000048                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000048 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000049                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000049 at experiments/image_000000000049                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000049                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000049 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000050                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000050 at experiments/image_000000000050                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000050                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000050 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000052                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000052 at experiments/image_000000000052                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000052                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000052 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000053                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000053 at experiments/image_000000000053                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000053                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000053 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000054                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000054 at experiments/image_000000000054                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000054                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000054 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000055                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000055 at experiments/image_000000000055                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000055                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000055 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000056                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000056 at experiments/image_000000000056                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000056                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000056 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000057                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000057 at experiments/image_000000000057                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000057                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000057 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000058                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000058 at experiments/image_000000000058                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000058                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000058 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000059                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000059 at experiments/image_000000000059                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000059                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000059 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000060                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000060 at experiments/image_000000000060                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000060                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000060 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000061                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000061 at experiments/image_000000000061                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000061                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000061 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000062                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000062 at experiments/image_000000000062                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000062                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000062 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000063                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000063 at experiments/image_000000000063                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000063                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000063 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000064                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000064 at experiments/image_000000000064                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000064                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000064 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000065                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000065 at experiments/image_000000000065                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000065                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000065 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000066                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000066 at experiments/image_000000000066                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000066                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000066 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000067                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000067 at experiments/image_000000000067                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000067                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000067 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000069                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000069 at experiments/image_000000000069                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000069                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000069 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000071                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000071 at experiments/image_000000000071                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000071                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000071 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000072                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000072 at experiments/image_000000000072                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000072                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000072 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000073                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000073 at experiments/image_000000000073                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000073                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000073 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000075                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000075 at experiments/image_000000000075                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000075                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000075 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000076                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000076 at experiments/image_000000000076                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000076                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000076 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000077                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000077 at experiments/image_000000000077                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000077                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000077 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000078                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000078 at experiments/image_000000000078                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000078                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000078 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000080                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000080 at experiments/image_000000000080                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000080                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000080 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000082                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000082 at experiments/image_000000000082                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000082                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000082 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000083                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000083 at experiments/image_000000000083                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000083                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000083 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000084                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000084 at experiments/image_000000000084                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000084                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000084 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000085                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000085 at experiments/image_000000000085                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000085                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000085 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000086                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000086 at experiments/image_000000000086                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000086                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000086 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000087                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000087 at experiments/image_000000000087                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000087                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000087 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000088                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000088 at experiments/image_000000000088                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000088                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000088 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000089                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000089 at experiments/image_000000000089                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000089                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000089 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000090                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000090 at experiments/image_000000000090                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000090                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000090 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000091                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000091 at experiments/image_000000000091                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000091                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000091 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000092                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000092 at experiments/image_000000000092                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000092                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000092 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000093                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000093 at experiments/image_000000000093                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000093                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000093 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000094                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000094 at experiments/image_000000000094                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000094                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000094 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000095                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000095 at experiments/image_000000000095                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000095                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000095 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000097                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000097 at experiments/image_000000000097                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000097                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000097 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000100                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000100 at experiments/image_000000000100                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000100                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000100 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000101                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000101 at experiments/image_000000000101                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000101                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000101 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000103                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000103 at experiments/image_000000000103                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000103                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000103 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000105                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000105 at experiments/image_000000000105                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000105                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000105 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000106                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000106 at experiments/image_000000000106                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000106                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000106 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000107                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000107 at experiments/image_000000000107                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000107                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000107 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000108                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000108 at experiments/image_000000000108                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000108                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000108 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000109                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000109 at experiments/image_000000000109                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000109                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000109 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000110                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000110 at experiments/image_000000000110                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000110                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000110 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000111                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000111 at experiments/image_000000000111                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000111                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000111 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000112                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000112 at experiments/image_000000000112                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000112                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000112 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000115                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000115 at experiments/image_000000000115                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000115                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000115 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000116                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000116 at experiments/image_000000000116                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000116                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000116 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000117                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000117 at experiments/image_000000000117                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000117                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000117 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000118                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000118 at experiments/image_000000000118                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000118                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000118 | Bit Acc: 0.812                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000119                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000119 at experiments/image_000000000119                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000119                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000119 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000120                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000120 at experiments/image_000000000120                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000120                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000120 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000121                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000121 at experiments/image_000000000121                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000121                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000121 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000123                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000123 at experiments/image_000000000123                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000123                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000123 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000124                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000124 at experiments/image_000000000124                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000124                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000124 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000125                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000125 at experiments/image_000000000125                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000125                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000125 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000127                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000127 at experiments/image_000000000127                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000127                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000127 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000130                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000130 at experiments/image_000000000130                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000130                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000130 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000131                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000131 at experiments/image_000000000131                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000131                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000131 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000133                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000133 at experiments/image_000000000133                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000133                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000133 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000134                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000134 at experiments/image_000000000134                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000134                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000134 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000135                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000135 at experiments/image_000000000135                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000135                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000135 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000136                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000136 at experiments/image_000000000136                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000136                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000136 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000137                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000137 at experiments/image_000000000137                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000137                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000137 | Bit Acc: 1.000                                                        watermark_anything.py:126
+INFO | Main               | Processing sample id=000000000139                                                                                 run_single.py:59
+INFO | Main               | Saved sample image_000000000139 at experiments/image_000000000139                                                 run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000139                                                       watermark_anything.py:66
+INFO | WAM                | ✅ Done sample image_000000000139 | Bit Acc: 1.000                                                        watermark_anything.py:126
