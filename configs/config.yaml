@@ -14,10 +14,20 @@ logging:
 
 models:
   watermarking:
-    - "wm_model1"
+    - "watermarkanything"
     - "wm_model2"
   editing:
-    - "edit_model1"
+    - "instructpix2pix"
     - "edit_model2"
   detection:
     - "detector1"
+
+#---------------------------------------------------------#
+instructpix2pix:
+  config_path: "external/instrctpix2pix/configs/generate.yaml"
+  resolution: 512
+  steps: 100
+  cfg_text: 7.5
+  cfg_image: 1.5
+  ckpt_path: "external/instrctpix2pix/checkpoints/instruct-pix2pix-00-22000.ckpt"
+  vae_ckpt_path: null

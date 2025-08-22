@@ -1,91 +1,134 @@
-# Text-Based Image Editing with Watermark Detection
+# Falcon: Text-Based Image Editing with Watermark Robustness
 
 ## Overview
 
-This project focuses on editing images using text-based commands and investigating how watermarked images sustain various image editing attacks. It allows users to perform a variety of image manipulations, such as resizing, cropping, and applying filters, while also supporting watermark detection post-editing. The project explores the impact of text-based image editing on the integrity of watermarks in AI-generated images.
+Falcon is a research project investigating the robustness of watermarks in AI-generated images when subjected to text-based editing operations. The project combines InstructPix2Pix for image editing and WatermarkAnything for watermark injection and detection, enabling a comprehensive analysis of watermark sustainability under various editing transformations.
 
-## Features
-- Resize images
-- Crop images
-- Apply filters
-- Adjust brightness and contrast
-- Add text annotations
-- Add watermarks to images
-- Edit AI-generated watermarked images
-- Calculate watermark detection after the image has been edited
+## Key Features
+
+- **Image Editing**
+  - Text-guided image manipulation using InstructPix2Pix
+  - Support for both simple and complex editing instructions
+  - Configurable editing parameters for fine-tuned control
+
+- **Watermarking**
+  - Robust watermark injection using WatermarkAnything
+  - Support for visible and invisible watermarks
+  - Multiple watermark models (MIT and COCO variants)
+
+- **Analysis & Detection**
+  - Watermark detection post-editing
+  - Quantitative robustness metrics
+  - Detailed experiment tracking and visualization
 
 ## Installation
 
-To install the necessary dependencies, run:
-
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/yourusername/falcon.git
+cd falcon
+```
+
+2. Run the setup script to configure all components:
+```bash
+bash setup.sh
+```
+
+This will:
+- Create a conda environment named 'falcon'
+- Set up InstructPix2Pix and download its models
+- Set up WatermarkAnything and download its models
+
+## Project Structure
+
+```
+experiments/
+│
+├── image_000000000001/                       # Sample 1
+│   ├── original/
+│   │   ├── image.png                        # Input image
+│   │   └── captions.json                    # Edit instructions
+│   │
+│   ├── watermarking/
+│   │   └── wm_model1/                       # Watermark model
+│   │       ├── watermarked.png              # Watermarked image
+│   │       ├── detection.json               # Initial detection results
+│   │       └── editing/
+│   │           └── edit_model1/             # Edit model
+│   │               └── v1/                  # Edit variation
+│   │                   ├── edited.png       # Edited result
+│   │                   └── detection.json   # Post-edit detection
+│   └── summary.json                         # Sample summary
+│
+└── global_summary.json                       # Experiment summary
 ```
 
 ## Usage
 
-### Editing an Image
+### Single Image Pipeline
 
-To start editing an image, use the following command with your desired text-based command for editing:
-
-```bash
-python edit_image.py --image <path_to_image> --command "<edit_command>"
-```
-
-Example:
+Process a single image through the complete pipeline:
 
 ```bash
-python edit_image.py --image sample.jpg --command "resize 800x600"
+python pipeline/run_single.py \
+  --input path/to/image.jpg \
+  --edit "make it look like an oil painting" \
+  --output path/to/output/
 ```
 
-This will apply the specified edit to the image.
+### Batch Processing
 
-### Adding a Watermark to an Image
-
-To add a watermark to an image, use the following command:
+Process multiple images with different edit instructions:
 
 ```bash
-python add_watermark.py --image <path_to_image> --watermark "<watermark_text>" --output <output_image_path>
+python pipeline/run_batch.py \
+  --input path/to/dataset/ \
+  --instructions instructions.json \
+  --output path/to/outputs/
 ```
 
-Example:
+### Parameter Tuning
 
-```bash
-python add_watermark.py --image sample.jpg --watermark "Confidential" --output watermarked_sample.jpg
-```
+For InstructPix2Pix editing:
+- `--steps`: Number of diffusion steps (default: 100)
+- `--cfg-text`: Text condition scale (default: 7.5)
+- `--cfg-image`: Image condition scale (default: 1.5)
 
-This command will add the watermark text `"Confidential"` to the image and save the output as `watermarked_sample.jpg`.
-
-### Editing a Watermarked Image
-
-To edit a watermarked image, simply provide the image path and the desired text-based editing command. The system will automatically detect and handle watermark-specific changes after editing.
-
-Example:
-
-```bash
-python edit_image.py --image watermarked_sample.jpg --command "turn it into an anime"
-```
-
-### Watermark Detection After Editing
-
-After editing an image, you can calculate the watermark detection using the following command:
-
-```bash
-python detect_watermark.py --image <path_to_edited_image>
-```
-
-Example:
-
-```bash
-python detect_watermark.py --image edited_sample.jpg
-```
-
-This will analyze the edited image to check for the presence of a watermark and determine how well it has sustained the editing process.
+For WatermarkAnything:
+- `--wm-model`: Watermark model selection (mit/coco)
+- `--strength`: Watermark strength (default: 1.0)
 
 ## Contributing
 
-Contributions are welcome! If you'd like to enhance the watermark detection, improve the watermark adding functionality, or contribute to any other part of the project, feel free to fork the repository and submit a pull request.
+Contributions are welcome! Please follow these steps:
 
+1. Fork the repository
+2. Create a feature branch
+3. Submit a Pull Request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## Citation
+
+If you use this code in your research, please cite our work:
+
+```bibtex
+@article{your-paper,
+  title={Falcon: Text-Based Image Editing with Watermark Robustness},
+  author={Your Name},
+  journal={arXiv preprint},
+  year={2023}
+}
+```
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+## Contact
+
+- Project Lead: [Shreyas](mailto:shreyasrd31@gmail.com)
+- Project Website: [https://github.com/yourusername/falcon](https://github.com/yourusername/falcon)
 ## License
 
 This project is licensed under the MIT License.

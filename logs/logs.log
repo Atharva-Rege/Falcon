@@ -1622,3 +1622,38 @@ INFO | Main               | Processing sample id=000000000139                   
 INFO | Main               | Saved sample image_000000000139 at experiments/image_000000000139                                                 run_single.py:43
 INFO | WAM                | Processing sample at experiments/image_000000000139                                                       watermark_anything.py:66
 INFO | WAM                | ✅ Done sample image_000000000139 | Bit Acc: 1.000                                                        watermark_anything.py:126
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 16:34:16
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 16:34:20
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 16:34:27
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                               watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                             watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                    watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 16:34:27
+#---------------------------------------------------------------------#
+INFO | Main               | Processing sample id=000000000001                                                                        run_single.py:59
+INFO | Main               | Saved sample image_000000000001 at experiments/image_000000000001                                        run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000001                                              watermark_anything.py:52
+INFO | WAM                | ✅ Done sample image_000000000001 | Bit Acc: 1.000                                               watermark_anything.py:102
+INFO | Main               | Processing sample id=000000000003                                                                        run_single.py:59
+INFO | Main               | Saved sample image_000000000003 at experiments/image_000000000003                                        run_single.py:43
+INFO | WAM                | Processing sample at experiments/image_000000000003                                              watermark_anything.py:52
+INFO | WAM                | ✅ Done sample image_000000000003 | Bit Acc: 1.000                                               watermark_anything.py:102
