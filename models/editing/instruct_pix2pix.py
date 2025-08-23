@@ -5,13 +5,11 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from __future__ import annotations
-
 import math
 import random
 import sys
 import einops
-import k_diffusion as K
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -22,7 +20,10 @@ from torch import autocast
 
 from configs.config import Config
 from configs.logger import setup_logger
-from external.instrctpix2pix.stable_diffusion.ldm.util import instantiate_from_config
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+from external.instructpix2pix.kdiffusion import k_diffusion as K
+# from external.instrctpix2pix.stable_diffusion.ldm.util import instantiate_from_config
+from external.instructpix2pix.stable_diffusion.ldm.util import instantiate_from_config
 logger = setup_logger("IPix2Pix","logs","debug")
 
 class CFGDenoiser(nn.Module):

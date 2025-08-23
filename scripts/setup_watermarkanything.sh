@@ -1,12 +1,18 @@
-# setup_watermarkanything.sh
 #!/usr/bin/env bash
 
-# Exit on error
+# setup_watermarkanything.sh
+# Usage: ./setup_watermarkanything.sh [ENV_NAME]
+
 set -e
 
-ENV_NAME="falcon"
+# Get environment name from argument or use default
+ENV_NAME=${1:-"Falcon"}
 
-echo "Setting up Watermark Anything..."
+echo "Setting up Watermark Anything in environment: $ENV_NAME"
+
+# Ensure we're in the correct conda environment
+eval "$(conda shell.bash hook)"
+conda activate "$ENV_NAME"
 
 # -----------------------------
 # 1. Rename submodule folder if needed
@@ -17,32 +23,19 @@ if [ -d "external/watermark-anything" ]; then
 fi
 
 # -----------------------------
-# 2. Ensure Conda env exists
+# 2. Install WatermarkAnything dependencies
 # -----------------------------
-if ! command -v conda &> /dev/null; then
-    echo "Conda not found. Please install Miniconda/Anaconda first."
-    exit 1
-fi
-
-if conda info --envs | grep -q "$ENV_NAME"; then
-    echo "Conda env '$ENV_NAME' found"
-else
-    echo "Conda env '$ENV_NAME' not found. Please run main Falcon setup first."
-    exit 1
-fi
-
-# -----------------------------
-# 3. Install WatermarkAnything dependencies
-# -----------------------------
+echo "Installing WatermarkAnything dependencies..."
 if [ -f "external/watermarkanything/requirements.txt" ]; then
-    echo "Installing WatermarkAnything requirements into $ENV_NAME..."
-    conda run -n $ENV_NAME pip install -r external/watermarkanything/requirements.txt
+    pip install -r external/watermarkanything/requirements.txt
 else
-    echo "No requirements.txt for WatermarkAnything found, skipping dependency install"
+    echo "No requirements.txt for WatermarkAnything found, installing common dependencies..."
+    # Install common dependencies that WatermarkAnything typically needs
+    pip install opencv-python pillow numpy torch torchvision
 fi
 
 # -----------------------------
-# 4. Download pretrained weights (skip if already present)
+# 3. Download pretrained weights (skip if already present)
 # -----------------------------
 echo "Checking pretrained weights..."
 
@@ -67,7 +60,6 @@ else
 fi
 
 # -----------------------------
-# 5. Final message
+# 4. Final message
 # -----------------------------
-echo "Watermark Anything setup complete!"
-echo "To use: conda activate $ENV_NAME"
+echo "Watermark Anything setup complete in environment: $ENV_NAME"

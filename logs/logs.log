@@ -1657,3 +1657,589 @@ INFO | Main               | Processing sample id=000000000003                   
 INFO | Main               | Saved sample image_000000000003 at experiments/image_000000000003                                        run_single.py:43
 INFO | WAM                | Processing sample at experiments/image_000000000003                                              watermark_anything.py:52
 INFO | WAM                | ✅ Done sample image_000000000003 | Bit Acc: 1.000                                               watermark_anything.py:102
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:38:42
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:38:57
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:39:18
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:42:07
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:46:13
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:46:40
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:46:41
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:46:49
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:02
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:04
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:12
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:27
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:29
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:49:37
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:51:07
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:51:09
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:51:16
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:53:35
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:54:42
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:54:47
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:55:30
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:56:50
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                 config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:56:52
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                     dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                            dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                             dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:56:59
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:59:50
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:59:52
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                          dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                 dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                  dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 20:59:59
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:07:28
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:07:30
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                          dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                 dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                  dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:07:37
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:08:43
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:08:45
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                          dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                 dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                  dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:08:52
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:09:18
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:11:40
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:11:42
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                          dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                 dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                  dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:11:49
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:16:54
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                      config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:16:56
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                          dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                 dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                  dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-22 21:17:03
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                    watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                  watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                         watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 14:12:45
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 14:13:08
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 14:13:40
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 14:14:07
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 20:25:12
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 21:42:04
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:07:14
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:08:47
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:09:13
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:09:24
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:10:29
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:11:54
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:12:20
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:13:05
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:13:08
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:13:16
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:14:07
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:14:10
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:14:17
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:15:08
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:15:11
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:15:18
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:16:10
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:16:15
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:16:22
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:17:56
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:18:00
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:18:07
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:41:04
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:41:09
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                    dataset.py:63
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:41:15
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                           watermark_anything.py:46
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:44:51
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:44:56
+#---------------------------------------------------------------------#
+DEB  | Main               | Entered main()                                                                                                                                  run_single.py:61
+DEB  | Main               | Loading dataset using load_custom_dataset()                                                                                                     run_single.py:64
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:44:56
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+DEB  | Main               | Dataset loaded: 105 samples                                                                                                                     run_single.py:66
+DEB  | Main               | Initializing WatermarkAnythingWrapper                                                                                                           run_single.py:73
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:45:02
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+DEB  | Main               | Initializing InstructPix2PixWrapper                                                                                                             run_single.py:75
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:49:20
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                                                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:49:24
+#---------------------------------------------------------------------#
+DEB  | Main               | Entered main()                                                                                                                                  run_single.py:61
+DEB  | Main               | Loading dataset using load_custom_dataset()                                                                                                     run_single.py:64
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:49:24
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+DEB  | Main               | Dataset loaded: 105 samples                                                                                                                     run_single.py:66
+DEB  | Main               | Initializing WatermarkAnythingWrapper                                                                                                           run_single.py:73
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:49:32
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+DEB  | Main               | Initializing InstructPix2PixWrapper                                                                                                             run_single.py:75
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:52:31
+#---------------------------------------------------------------------#
+INFO | Config             | Loading configuration from /home/shreyas/Desktop/Shreyas/Projects/Falcon/configs/config.yaml                        config.py:22
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:52:35
+#---------------------------------------------------------------------#
+DEB  | Main               | Entered main()                                                                                                                                  run_single.py:61
+DEB  | Main               | Loading dataset using load_custom_dataset()                                                                                                     run_single.py:64
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:52:35
+#---------------------------------------------------------------------#
+INFO | Dataset            | Loading dataset: SRDdev/AI-TextImageEdit (split=V1) ...                                                                                            dataset.py:26
+INFO | Dataset            | Dataset split 'V1' loaded with 105 total samples                                                                                                   dataset.py:36
+INFO | Dataset            | Finished processing 105 samples                                                                                                                    dataset.py:63
+DEB  | Main               | Dataset loaded: 105 samples                                                                                                                     run_single.py:66
+DEB  | Main               | Initializing WatermarkAnythingWrapper                                                                                                           run_single.py:73
+
+
+#---------------------------------------------------------------------#
+Run : 2025-08-23 23:52:43
+#---------------------------------------------------------------------#
+INFO | WAM                | Using device: cuda                                                                                                                      watermark_anything.py:33
+INFO | WAM                | Loading WAM model...                                                                                                                    watermark_anything.py:44
+INFO | WAM                | WAM model loaded successfully                                                                                                           watermark_anything.py:46
+DEB  | Main               | Initializing InstructPix2PixWrapper                                                                                                             run_single.py:75

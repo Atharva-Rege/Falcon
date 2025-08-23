@@ -24,10 +24,10 @@ models:
 
 #---------------------------------------------------------#
 instructpix2pix:
-  config_path: "external/instrctpix2pix/configs/generate.yaml"
+  config_path: "external/instructpix2pix/configs/generate.yaml"
   resolution: 512
   steps: 100
   cfg_text: 7.5
   cfg_image: 1.5
-  ckpt_path: "external/instrctpix2pix/checkpoints/instruct-pix2pix-00-22000.ckpt"
+  ckpt_path: "external/instructpix2pix/checkpoints/instruct-pix2pix-00-22000.ckpt"
   vae_ckpt_path: null
